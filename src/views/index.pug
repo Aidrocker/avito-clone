@@ -1,0 +1,20 @@
+extends ./templates/_template.pug
+
+block title
+  title My Page - Home
+
+block basicSeo
+  meta(name='description' content='Home Page')
+  meta(name='keywords', content='main page, home page')
+  meta(name='author' content='Mario Dev')
+
+block links
+  link(href='')
+
+block content
+
+  //- Desktop page
+  section.page
+    // header
+    include ./components/header/header.pug
+
